@@ -13,3 +13,9 @@ require "active_support/all"
 
 "table".pluralize     # => "tables"
 "rubies".singularize    # => "ruby"
+
+pp "What's your name?"
+their_name = gets
+pp "Hello, " + their_name + "!"
+
+
